@@ -175,10 +175,9 @@
 
     <% if @user %>
     <section id="samples" class="clearfix">
-          <h1>Features</h1>
+          <h1>Friends</h1>
 
           <div class="list">
-            <h3>Friends</h3>
             <ul class="friends">
                 <% @friends.each_with_index do |friend, index| %>
                 <li  class='<%= 'first-column' if (index%4).zero? %>'>
