@@ -177,7 +177,7 @@
     <section id="samples" class="clearfix">
           <h1>Friends</h1>
 
-          <div class="list">
+          <div class="list inline">
             <ul class="friends">
                 <% @friends.each_with_index do |friend, index| %>
                 <li  class='<%= 'first-column' if (index%4).zero? %>'>
@@ -185,20 +185,6 @@
                     <img src="https://graph.facebook.com/<%= friend['id'] %>/picture?type=square" alt="<%= friend['name'] %>">
                     <%= friend['name'] %>
                  </a>
-                </li>
-              <% end %>
-            </ul>
-          </div>
-
-          <div class="list inline">
-            <h3>Friends using this app</h3>
-            <ul class="friends">
-              <% @friends_using_app.each do |friend_result| %>
-                <li>
-                  <a href="#" onclick="window.open('http://www.facebook.com/<%= friend_result['uid'] %>')">
-                    <img src="<%= friend_result['pic_square'] %>" alt="<%= friend_result['name'] %>">
-                    <%= friend_result['name'] %>
-                  </a>
                 </li>
               <% end %>
             </ul>
