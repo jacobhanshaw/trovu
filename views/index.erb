@@ -170,8 +170,9 @@
 
     <section id="get-started">
       <p>Welcome to Trovu!</p>
-      <div class="list">
-      <ul class="friends">
+          <div class="list">
+            <h3>A few of your friends</h3>
+            <ul class="friends">
               <% @friends.each do |friend| %>
                 <li>
                   <a href="#" onclick="window.open('http://www.facebook.com/<%= friend['id']%>')">
