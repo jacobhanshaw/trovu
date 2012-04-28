@@ -64,6 +64,7 @@ get "/" do
   if session[:access_token]
     @user    = @graph.get_object("me")
     @friends = @graph.get_connections('me', 'friends')
+    @friendsSuck = @graph.get_connections('me', 'friends')
     @photos  = @graph.get_connections('me', 'photos')
     @likes   = @graph.get_connections('me', 'likes').first(4)
 
