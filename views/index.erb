@@ -180,12 +180,12 @@
           <div class="list">
             <h3>Friends</h3>
             <ul class="friends">
-              <% @friends.each do |friend| %>
-                <li>
+                <% @friends.each_with_index do |friend, index| %>
+                <li  class='<%= 'first-column' if (index%4).zero? %>'>
                   <a href="#" onclick="window.open('http://www.facebook.com/<%= friend['id']%>')">
                     <img src="https://graph.facebook.com/<%= friend['id'] %>/picture?type=square" alt="<%= friend['name'] %>">
                     <%= friend['name'] %>
-                  </a>
+                 </a>
                 </li>
               <% end %>
             </ul>
