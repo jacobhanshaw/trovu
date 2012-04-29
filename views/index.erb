@@ -151,7 +151,7 @@
           <h1>Welcome to Trovu!</h1>
           <p>Select the friends you're interested in and press submit.</p>
           <br />
-          <p>If they indicate they want to be more than just friends with you then you'll both get updated on your mutual interest. If not, then no one ever has to know and your friendship is saved.</p>
+          <p>However, nothing will get sent to that person unless they indicate interest in you! That way they'll never know unless you're both interested in each other.</p>
           <br />
             <a href='/auth/facebook' class="fb_button fb_button_medium">
               <span class="fb_button_text">Log In</span>
@@ -165,7 +165,7 @@
     <section id="samples" class="clearfix">
           <h1>Friends</h1>
 
-          <div class="list inline">
+          <div class="list">
             <ul class="friends">
                 <% @friends.each_with_index do |friend, index| %>
                 <li  class='<%= 'first-column' if (index%4).zero? %>'>
