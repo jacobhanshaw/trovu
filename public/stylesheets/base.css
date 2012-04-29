@@ -345,13 +345,13 @@ header .tagline {
 /* =clearfix
 --------------------------------------------- */
 .clearfix:after {
-/*  clear: both;
+  clear: both;
   content: "."; 
   display: block;
   font-size: 0;
   height: 0;
   line-height: 0;
-  visibility: hidden; */
+  visibility: hidden; 
 }
 
 .clearfix {
