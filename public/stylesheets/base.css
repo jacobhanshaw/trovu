@@ -257,19 +257,9 @@ header #picture {
   border-top: 1px solid #fff;
 }
 
-#samples h3 {
-  background: url("../images/header-sketch.png") no-repeat;
-  color: #646464;
-  font-weight: bold;
-  font-size: 11px;
-  line-height: 29px;
-  text-align: center;
-}
-
 #samples ul {
-  background: url("../images/picture-sketch.png") 4px 8px;
   background-repeat: repeat-y;
-  height: 161px;
+  height: 4000px;
   overflow: hidden;
   padding-top: 8px;
 }
@@ -279,7 +269,7 @@ header #picture {
   background-position: 0 0;
   color: #7c7c7c;
   display: block;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   height: 32px;
   margin-bottom: 11px;
@@ -292,7 +282,7 @@ header #picture {
   color: #7c7c7c;
   display: block;
   line-height: 32px;
-  padding-left: 36px;
+  padding-left: 0;
 }
 
 #samples .list img {
@@ -309,17 +299,17 @@ header #picture {
 
 #samples .list li {
   float: left;
-  margin-left: 12px;
+  margin-left: 16px;
   overflow: hidden;
   padding: 0;
-  width: 32px;
+  width: 160px;
   background-position: center 25%;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   background-size: cover;
 }
 
-#samples .inline li.first-column {
+#samples .list li.first-column {
   margin-left: 0;
 }
 
