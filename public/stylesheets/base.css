@@ -301,7 +301,7 @@ header #picture {
   float: left;
   margin-left: 16px;
   overflow: hidden;
-  padding: 10px;
+  padding: 0;
   width: 160px;
   background-position: center 25%;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ header #picture {
   background-size: cover;
 }
 
-#samples .inline li.first-column {
+#samples .list li.first-column {
   margin-left: 0;
 }
 
