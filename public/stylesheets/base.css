@@ -271,7 +271,7 @@ header #picture {
   display: block;
   font-size: 12px;
   font-weight: bold;
-  height: 50px;
+  height: 64px;
   margin-bottom: 11px;
   overflow: hidden;
   position: relative;
@@ -299,7 +299,7 @@ header #picture {
 
 #samples .list li {
   float: left;
-  margin-left: 30px;
+  margin-left: 100px;
   overflow: hidden;
   padding: 0;
   width: 160px;
