@@ -259,7 +259,7 @@ header #picture {
 
 #samples ul {
   background-repeat: repeat-y;
-  height: 4000px;
+  height: 40000px;
   overflow: hidden;
   padding-top: 8px;
 }
@@ -291,6 +291,7 @@ header #picture {
   position: absolute;
   top: 0;
   width: 32px;
+  padding-right: 5px;
 }
 
 #samples .inline ul {
