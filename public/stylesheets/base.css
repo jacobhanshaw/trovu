@@ -293,11 +293,11 @@ header #picture {
   width: 32px;
 }
 
-#samples .list ul {
+#samples .inline ul {
   background-repeat: repeat;
 }
 
-#samples .inline li {
+#samples .list li {
   float: left;
   margin-left: 12px;
   overflow: hidden;
