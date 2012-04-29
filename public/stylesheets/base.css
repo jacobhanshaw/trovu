@@ -327,7 +327,7 @@ header .tagline {
 }
 
 #samples .inline li.first-column {
-  margin-left: 3px;
+  margin-left: 0;
 }
 
 #samples .inline li a:link,
