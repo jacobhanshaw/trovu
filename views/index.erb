@@ -133,14 +133,10 @@
           <p id="picture" style="background-image: url(https://graph.facebook.com/<%= @user['id'] %>/picture?type=normal)"></p>
           <div>
             <h1>Welcome, <strong><%= @user['name'] %></strong></h1>
-            <p class="tagline">
-              This is your app
-            <a href="<%= @app['@app'] %>"><%= @app['name'] %></a>
-            </p>
             <br />
             <br />
             <div id="share-app">
-              <p>Share your app:</p>
+              <p>Share this app:</p>
               <ul>
                 <li>
                   <a href="#" class="facebook-button" id="postToWall" data-url="<%= url %>">

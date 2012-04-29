@@ -38,7 +38,7 @@ header {
   border-left: 1px solid #b3b3b3;
   border-right: 1px solid #b3b3b3;
   border-top: 1px solid #b3b3b3;
-  font-size: 11px;
+  font-size: 16px;
   padding: 24px 18px;
 }
 
@@ -63,13 +63,9 @@ header #picture {
   overflow: hidden;
 }
 
-header .tagline {
-  float: left;
-}
-
 #share-app {
-  float: right;
-  width: 344px;
+  float: left;
+ /* width: 344px; */
 }
 
 #share-app ul {
