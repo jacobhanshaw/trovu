@@ -137,11 +137,13 @@
               This is your app
             <a href="<%= @app['@app'] %>"><%= @app['name'] %></a>
             </p>
+            <br />
+            <br />
             <div id="share-app">
               <p>Share your app:</p>
               <ul>
                 <li>
-                  <a href="#" class="facebook-button" id="postToWall" style="float:left" data-url="<%= url %>">
+                  <a href="#" class="facebook-button" id="postToWall" data-url="<%= url %>">
                     <span class="plus">Post to Wall</span>
                   </a>
                 </li>
@@ -151,7 +153,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="facebook-button apprequests" id="sendRequest" style="float:right" data-message="Test this awesome app">
+                  <a href="#" class="facebook-button apprequests" id="sendRequest" data-message="Test this awesome app">
                     <span class="apprequests">Send Requests</span>
                   </a>
                 </li>
