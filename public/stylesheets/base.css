@@ -301,7 +301,7 @@ header #picture {
   float: left;
   margin-left: 16px;
   overflow: hidden;
-  padding: 0;
+  padding: 10px;
   width: 160px;
   background-position: center 25%;
   background-repeat: no-repeat;
