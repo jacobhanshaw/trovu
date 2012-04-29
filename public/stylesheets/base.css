@@ -50,7 +50,7 @@ header h1 {
 }
 
 header #picture + div {
-  margin-left: 82px;
+  margin-left: 0px;
 }
 
 header #picture {
@@ -269,7 +269,7 @@ header #picture {
   background-position: 0 0;
   color: #7c7c7c;
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   height: 32px;
   margin-bottom: 11px;
@@ -290,7 +290,7 @@ header #picture {
   left: 0;
   position: absolute;
   top: 0;
-  width: 32px;
+  width: 40px;
 }
 
 #samples .inline ul {
