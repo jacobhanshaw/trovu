@@ -271,7 +271,7 @@ header #picture {
   display: block;
   font-size: 12px;
   font-weight: bold;
-  height: 64px;
+  height: 32px;
   margin-bottom: 11px;
   overflow: hidden;
   position: relative;
@@ -282,7 +282,7 @@ header #picture {
   color: #7c7c7c;
   display: block;
   line-height: 32px;
-  padding-left: 36px;
+  padding-left: 0;
 }
 
 #samples .list img {
@@ -290,7 +290,7 @@ header #picture {
   left: 0;
   position: absolute;
   top: 0;
-  width: 64px;
+  width: 32px;
 }
 
 #samples .inline ul {
