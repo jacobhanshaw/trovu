@@ -259,7 +259,7 @@ header #picture {
 
 #samples ul {
   background-repeat: repeat-y;
-  height: 40000px;
+  height: 7000px;
   overflow: hidden;
   padding-top: 8px;
 }
@@ -275,6 +275,7 @@ header #picture {
   margin-bottom: 11px;
   overflow: hidden;
   position: relative;
+  padding-left: 25px;
 }
 
 #samples li a:link,
