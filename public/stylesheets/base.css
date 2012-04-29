@@ -191,7 +191,7 @@ header #picture {
 #samples .list {
   float: left;
   margin-right: 3px;
-  width: 1000px;
+  width: 550px;
 }
 
 #guides ul li p,
@@ -259,7 +259,7 @@ header #picture {
 
 #samples ul {
   background-repeat: repeat-y;
-  height: 2000px;
+  height: 4000px;
   overflow: hidden;
   padding-top: 8px;
 }
@@ -290,7 +290,7 @@ header #picture {
   left: 0;
   position: absolute;
   top: 0;
-  width: 50px;
+  width: 64px;
 }
 
 #samples .inline ul {
@@ -299,7 +299,7 @@ header #picture {
 
 #samples .list li {
   float: left;
-  margin-left: 20px;
+  margin-left: 30px;
   overflow: hidden;
   padding: 0;
   width: 160px;
