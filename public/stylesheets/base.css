@@ -162,7 +162,7 @@ header #picture {
   height: 200px;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0, 0, 0, .29);
-  padding: 32px 0 0;
+  padding: 0 0 0;
 }
 
 #get-started p {
@@ -269,7 +269,7 @@ header #picture {
   background-position: 0 0;
   color: #7c7c7c;
   display: block;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: bold;
   height: 32px;
   margin-bottom: 11px;
@@ -302,7 +302,7 @@ header #picture {
   margin-left: 12px;
   overflow: hidden;
   padding: 0;
-  width: 120px;
+  width: 160px;
   background-position: center 25%;
   background-repeat: no-repeat;
   -moz-background-size: cover;
