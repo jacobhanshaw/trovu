@@ -299,7 +299,7 @@ header #picture {
 
 #samples .list li {
   float: left;
-  margin-left: 100px;
+  margin-left: 16px;
   overflow: hidden;
   padding: 0;
   width: 160px;
