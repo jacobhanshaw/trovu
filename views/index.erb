@@ -135,12 +135,26 @@
             <h1>Welcome, <strong><%= @user['name'] %></strong></h1>
             <br />
             <br />
+        <section id="get-started">
+          <p>Welcome to Trovu!</p>
+          <p>Find out if that person you've always been interested in, is interested in you too! All without the risk of rejection!</p>
+          <br />
+          <p>Just select the friends you're interested in and press submit.</p>
+          <br />
+          <p>If they indicate they want to be more than just friends with you then you'll both get updated on your mutual interest.</p>
+          <p>If not, then no one ever has to know and your friendship is saved.</p>
+            </section>
           </div>
       <% else %>
         <div>
           <img src="https://trovu.herokuapp.com/images/trovu.png" style="float:right" height="57" width="166" alt="Trovu">
-          <h1>Welcome</h1>
-            <br />
+          <h1>Welcome to Trovu!</h1>
+          <p>Log in to find out if that person you've always been interested in, is interested in you too! All without the risk of rejection!</p>
+          <br />
+          <p>All you have to do is select the friends you're interested in and press submit.</p>
+          <br />
+          <p>If they indicate they want to be more than just friends with you then you'll both get updated on your mutual interest.</p>
+          <p>If not, then no one ever has to know and your friendship is saved.</p>
             <a href='/auth/facebook' class="fb_button fb_button_medium">
               <span class="fb_button_text">Log In</span>
             </a>
@@ -148,11 +162,6 @@
 
       <% end %>
     </header>
-
-    <section id="get-started">
-      <p>Welcome to Trovu!</p>
-    </section>
-
 
     <% if @user %>
     <section id="samples" class="clearfix">

@@ -260,17 +260,7 @@ header #picture {
   border-top: 1px solid #fff;
 }
 
-#samples h3 {
-  background: url("../images/header-sketch.png") no-repeat;
-  color: #646464;
-  font-weight: bold;
-  font-size: 11px;
-  line-height: 29px;
-  text-align: center;
-}
-
 #samples ul {
- /* background: url("../images/picture-sketch.png") 4px 8px; */
   background-repeat: repeat-y;
   height: 2000px;
   overflow: hidden;
@@ -315,7 +305,7 @@ header #picture {
   margin-left: 12px;
   overflow: hidden;
   padding: 0;
-  width: 32px;
+  width: 80px;
   background-position: center 25%;
   background-repeat: no-repeat;
   -moz-background-size: cover;
