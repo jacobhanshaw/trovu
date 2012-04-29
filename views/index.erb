@@ -129,6 +129,7 @@
 
     <header class="clearfix">
       <% if @user %>
+          <img src="https://trovu.herokuapp.com/images/trovu.png" style="float:right" height="57" width="166" alt="Trovu">
           <p id="picture" style="background-image: url(https://graph.facebook.com/<%= @user['id'] %>/picture?type=normal)"></p>
           <div>
             <h1>Welcome, <strong><%= @user['name'] %></strong></h1>
@@ -159,11 +160,11 @@
           </div>
       <% else %>
         <div>
+          <img src="https://trovu.herokuapp.com/images/trovu.png" style="float:right" height="57" width="166" alt="Trovu">
           <h1>Welcome</h1>
             <a href='/auth/facebook' class="fb_button fb_button_medium">
               <span class="fb_button_text">Log In</span>
             </a>
-          <img src="https://trovu.herokuapp.com/images/trovu.png" style="float:right" height="57" width="166" alt="Trovu">
         </div>
 
       <% end %>
