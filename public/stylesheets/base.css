@@ -283,7 +283,7 @@ header #picture {
   color: #7c7c7c;
   display: block;
   line-height: 32px;
-  padding-left: 0;
+  padding-left: 32px;
 }
 
 #samples .list img {
