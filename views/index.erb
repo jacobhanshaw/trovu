@@ -172,7 +172,7 @@
                 <li  class='<%= 'first-column' if (index%4).zero? %>'>
                   <a href="#" onclick="window.open('http://www.facebook.com/<%= friend['id']%>')">
                     <img src="https://graph.facebook.com/<%= friend['id'] %>/picture?type=square" alt="<%= friend['name'] %>">
-                    <%= friend['name'] %>
+                    <p><%= friend['name'] %></p>
                  </a>
                 </li>
               <% end %>
